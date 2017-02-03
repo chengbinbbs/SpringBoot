@@ -1,0 +1,10 @@
+spring:
+ profiles:
+  active: prod
+
+ # Spring Boot默认的数据源是：org.apache.tomcat.jdbc.pool.DataSource
+ datasource:
+  driver-class-name: com.mysql.jdbc.Driver
+  url: jdbc:mysql://127.0.0.1:3306/cms?useUnicode=true&amp;characterEncoding=UTF-8
+  username: root
+  password: root
